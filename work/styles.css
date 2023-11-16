@@ -1,0 +1,317 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    background-color: #1d212b;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+} 
+
+
+a{
+    text-decoration: none;
+    font-style: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    height: 50px;
+    z-index: 100;
+    width: 100%;
+    padding: 0px 15px 25px 15px;
+}
+
+/* .head-mid{
+    background: url(/beautiful_flat-style_logo_desi.jpeg);
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+
+} */
+
+.logo{
+    background: url(/logo-removebg-preview.png);
+    width: 200px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+
+.head-left{
+    display: flex;
+    justify-content: space-between;
+    width: 20%
+}
+
+.head-right{
+    color: white;
+    width: 40%;
+    margin-right: 40px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    /* text-shadow: 0px 0pxs 8px black; */
+}
+
+
+
+.pimage-1, .pimage-2, .pimage-3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* 
+.pimage-1{
+    background-image: url(/sukant-sharma-b6rs6V_9lH4-unsplash\ \(1\).png);
+    height: 100%;
+    width: 100%;
+    animation: slide 30s 1;
+} */
+/* video background */
+#background-video {
+    height: 100vh;
+    width: 100%;
+    object-fit: fill;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+.p-text{
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    color: black;
+    font-size: 56px;
+    letter-spacing:12px;
+    text-transform: uppercase;
+    margin: auto auto;
+}
+.p-text-2{
+    padding-top: 15px;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+    margin: auto auto;
+    letter-spacing: 4px;
+    text-shadow: 4px 4px 12px black;
+}
+
+.section-1 h3{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+
+.potato{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 3.7109375vw;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+.section-1{
+    font-size: 25px;
+    font-style: italic;
+    padding-top:40px;
+    text-align: center;
+    height: auto;
+    color: white;
+    font-weight: lighter;
+    background-color: #1d212b;
+  }
+
+/*Must visit horizontal slider*/
+.M-container{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    padding-left: 25px;
+    background-color: #1d212b;
+    padding-bottom: 20px;
+   }
+
+.M-container::-webkit-scrollbar{
+    display: none;
+  } 
+
+.mvd p{
+    padding: 15px;
+    color:   black;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.mvd h2{
+    color: white;
+    /*text-decoration: underline;*/
+    font-weight: 600;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.mvd{
+    min-width: 20vw;
+    text-align: center;
+    border-radius: 16px;
+    margin: 10px 20px;
+    background-color: #2696E9;
+    transition: 0.5s;
+}
+
+.mvd:hover{
+    cursor: pointer;
+    min-width: 25vw;
+    transition: 0.6s;
+    box-shadow: 0px 0px 4px black;
+}
+
+.mvd:hover P{
+    color: white;
+    transition: 0.6s;
+    font-size: larger;
+}
+
+.mvd:hover h2{
+    font-size: larger;
+    color: black;
+    transition: 0.6s;
+
+}
+
+.mvd:hover img{
+    height: 275px;
+    transition: 0.6s;
+}
+
+.mvd img{
+    transition: 0.5s;
+    object-fit: fill;
+    width: 100%;
+    height: 250px;
+    border-radius:16px 16px 0px 0px;
+}
+
+.reveal{
+    position: relative;
+    transform:translateY(150px) ;
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+/*MVD Ends*/
+
+@keyframes slide {
+    0%{
+        background-image: url(/sukant-sharma-b6rs6V_9lH4-unsplash\ \(1\).png);
+    }
+    20%{
+        background-image: url(/varshesh-joshi-qaZofx5ePm8-unsplash.jpg);
+    }
+    40%{
+        background-image: url(/1310807.jpeg);
+    }
+    60%{
+        background-image: url(/AdobeStock_411014556_Preview.jpeg);
+    }
+    80%{
+        background-image: url(/sourabh-shrikant-nilakhe-sYrTr4w42Pk-unsplash.jpg);
+    }
+}
+
+/*safety*/
+.pimage-2{
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/farm\ photos.jpg);
+
+}
+
+.pimage-2 h1{
+    padding-left: 80px;
+}
+
+.hs-main{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.hs-text{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.hs-text p{
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.hs-text img{
+    display: block;
+    margin: 40px auto 20px auto;
+    object-fit: fill;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    text-align: center;
+}
+
+.second{
+    padding-top: 20px;
+}
+/*safety end*/
+
+@media only screen and (max-width: 760px) {
+    .M-container{
+        flex-direction: column;
+        height: 100vw;
+    }
+}
+

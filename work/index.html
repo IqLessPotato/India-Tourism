@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Tourism</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script>
+        window.addEventListener('scroll', reveal);
+
+        function reveal(){
+            var reveals =document.querySelectorAll('.reveal');
+
+            for(var i=0; i<reveals.length; i++){
+
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+    <div class="header">
+        <div class="head-left">
+            <div class="logo"></div>
+        </div>
+        <div class="head-right">
+                <li><a>Home</a></li>
+                <li><a>Tours</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+        </div>
+    </div>
+    <video id="background-video" autoplay muted >
+        <source src="/3d polaroid-.mp4" type="video/mp4">
+      </video>
+    <!-- <div class="pimage-1">
+            <div class="p-text">
+                <p>
+                    INDIA
+                </p>
+            </div>    
+            <div class="p-text-2">
+                <p>
+                    “Atithi Devo Bhava”<br>
+                    -“Guest is God”
+                </p>
+            </div>
+    </div> -->
+
+    <div class="section-1 reveal">
+        <h1 class="potato">Must visit Destinations</h1>
+        <h3>From historical cities to natural splendours, come see the best of India.
+    </div>
+
+    <div class="M-container reveal">
+        <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/dalhousie.html" target="_blank">
+            <div class="mvd">
+                <img src="/dalhousie.jpg" alt="">
+                <h2>Dalhousie</h2>
+                <p>Dalhousie, in Himachal Pradesh, is a quaint hill town perfect for a relaxing holiday.For more information click <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/dalhousie.html" target="_blank">here</p>
+            </div>
+        </a>
+        <div class="mvd">
+            <img src="/leh.jpg" alt="">
+            <h2>Leh</h2>
+            <p>A surreal landscape surrounded by the sky-piercing peaks of the snow-capped Himalayan, Zanskar and Karakoram ranges.For more information click <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/leh-ladakh.html" target="_blank">here</a></p>
+        </div>
+        <div class="mvd">
+            
+            <img src="/shillong.jpg" alt="">
+            <h2>Shillong</h2>
+            <p>Colonial-era charm, a landscape of rolling green and pristine mountains come together to bring to life the city of Shillong.For more information click <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/shillong.html" target="_blank">here</a></p>
+        </div>
+        <div class="mvd">
+            <img src="/statue of unity.jpg" alt="">
+            <h2>The Statue of Unity</h2>
+            <p>The 182-metre (600 feet approx.) statue is dedicated to Sardar Vallabhbhai Patel, the architect of independent India.For more information click <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/states/gujarat/top-attraction-and-destinations/statue-of-unity.html" target="_blank">here</a></p>
+        </div>
+        <div class="mvd">
+            <img src="/wayannad.jpg" alt="">
+            <h2>Wayanad</h2>
+            <p>A coffer of coffee, cardamom and tea plantations, which envelope the land with lush emerald greenery and fill the air with a heady aroma, Wayanad, in Kerala .....For more information click <a href='https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/wayanad.html' target="_blank">here</a></p>
+        </div>
+    </div>
+
+    <div class="pimage-2">
+        <h1 class="potato reveal">Health and safety travel tips</h1>
+    </div>
+    <div class="hs-main">
+        <div class="hs-text">
+            <h1>Travel Advice</h1>
+            <p>The traveler within us is always planning that next trip. Across India, hotels, restaurants and tourist attractions are open and ready to be enjoyed. Of course, the best way to make the most of any trip is to stay up to speed on the latest health and travel advice, and to take practical precautions. So, whether you’re planning a luxury getaway or a cross-country road trip, here are some tips to make your Indian adventure worry- and stress-free.</p>
+            <img src="/traveler.jpg" alt="">
+        </div>
+
+        <div class="hs-text second">
+            <h1>Stay Informed</h1>
+            <p>Following government guidelines can provide the latest advice about travel to and within Saudi.</p>
+        </div>
+
+        <div class="hs-text third">
+            <h1>
+                What to do in an emergency?
+            </h1>
+            <p>
+                In case of an emergency, dial:
+                <ul>
+                    <li>1- 100 or 112 for POLICE</li>
+                    <li>2- 101 for FIRE</li>
+                    <li>3- 102 for AMBULANCE</li>
+                </ul>
+            </p>
+
+        </div>
+   </div>
+
+   <div class="footer">
+    
+   </div>
+</body>  
+</html>  
