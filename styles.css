@@ -310,12 +310,12 @@ ul, li{
 
 /*buttton*/
 .chat{
-    width: 10%;
+    width: auto;
     /* background-image: url(/live-chat-icon-png-38.png); */
     height: 3%;
     position: fixed;
-    bottom:0;
-    right: 0;
+    bottom:0%;
+    right: 0%;
     z-index: 100;
     margin-right: 0.5%;
     margin-bottom: 2%;
@@ -323,12 +323,12 @@ ul, li{
 }
 
 .chatbut{
-    --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
+    --border-color: linear-gradient(-45deg,#82d8f5, orange,#a4dc18);
     --border-width: .125em;
     --curve-size: .5em;
     --blur: 30px;
-    --bg: #080312;
-    --color: #afffff;
+    --bg: black;
+    --color: white;
     color: var(--color);
       /* use position: relative; so that BG is only for .chatbut */
     position: relative;
@@ -447,7 +447,13 @@ ul, li{
 }  
   
   
-/*button-end*/  
+/*button-end*/ 
+
+/*footer*/
+
+/*footer-end*/
+
+
 
 @media only screen and (max-width: 760px) {
     .M-container{
