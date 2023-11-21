@@ -448,9 +448,118 @@ ul, li{
   
   
 /*button-end*/ 
+/*footer-start*/
+.fcontainer{
+    color: white;
+    width: 100%;
+    height: fit-content;
+    background: #17406c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+}
 
-/*footer*/
+.fcontainer a:hover{
+    color: #2696E9;
+}
 
+.fcontainer h3{
+    margin-top: 0px;
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 16px;
+    text-underline-offset: 5px;
+}
+
+.fsub{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.stlinks , .utlinks{
+    font-size: 0.8em;
+    font-weight: 100;
+    line-height: 2em;
+}
+
+.stweb{
+    display: flex;
+    flex-direction: column;
+}
+.stlinks{
+    display: flex;
+}
+.st{
+    display: flex;
+    flex-direction: column;
+    padding-right: 3vw; 
+    white-space: nowrap;
+}
+
+.utweb{
+    display: flex;
+    flex-direction: column;
+}
+.utlinks{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5vw; 
+    white-space: nowrap;
+}
+
+.flower{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flogo{
+    margin-top: 5vh;
+    width: 200px;
+    height: 100px;
+    background: url(/logo-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fltext p{
+    font-size: 0.8em;
+    margin-top: 0;
+    border-bottom: 0.5px solid white;
+    padding-bottom: 2vh;
+}
+
+.fcontact{
+    line-height: 1em;
+    font-size: 0.8em;
+}
+.fcontact h3{
+    margin-top: 0px;
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 16px;
+    text-underline-offset: 5px;
+    padding-bottom: 15px;
+}
+
+.flowest{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8em;
+}
+
+.flowest p{
+    padding-right: 5%;
+    white-space: nowrap;
+}
 /*footer-end*/
 
 
