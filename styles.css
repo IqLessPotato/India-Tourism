@@ -479,6 +479,7 @@ ul, li{
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
+    flex-wrap: wrap;
 }
 
 .stlinks , .utlinks{
@@ -567,7 +568,7 @@ ul, li{
 @media only screen and (max-width: 760px) {
     .M-container{
         flex-direction: column;
-        height: 100vw;
+        height: 80vh;
     }
 }
 
