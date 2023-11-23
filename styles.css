@@ -30,7 +30,7 @@ ul, li{
     background-color: rgba(0, 0, 0, 0);
     position: fixed;
     top: 0;
-    height: 50px;
+    height: 10%;
     z-index: 100;
     width: 100%;
     padding: 0px 15px 25px 15px;
@@ -72,7 +72,7 @@ ul, li{
     justify-content: space-evenly;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 1.0416666666666667vw;
+    font-size: 100%;
     /* text-shadow: 0px 0pxs 8px black; */
 }
 
