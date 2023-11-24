@@ -737,5 +737,9 @@ ul, li{
     .head-right li{
         font-size: small;
     }
+    .header{
+        position: absolute;
+        top: 0;
+    }
 }
 
