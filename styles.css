@@ -738,7 +738,7 @@ ul, li{
         width: 60%;
     }
     .head-right li{
-        font-size: small;
+        font-size: smaller;
     }
     .header{
         position: absolute;
@@ -746,7 +746,7 @@ ul, li{
     }
     #background-video{
         height: auto;
-        margin-top: 10vh;
+        margin-top: 13vh;
     }
 }
 
