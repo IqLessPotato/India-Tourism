@@ -741,7 +741,7 @@ ul, li{
         top: 0;
     }
     #background-video{
-        height: max-content;
+        height: auto;
         margin-top: 10vh;
     }
 }
