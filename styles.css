@@ -162,7 +162,9 @@ ul, li{
     overflow: scroll;
     padding-left: 25px;
     background-color: #1d212b;
+    padding-top: 10px;
     padding-bottom: 20px;
+    border-top: 1px solid white;
    }
 
 .M-container::-webkit-scrollbar{
@@ -238,6 +240,151 @@ ul, li{
     opacity: 1;
 }
 /*MVD Ends*/
+
+/*POi start*/
+.redirect-main{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.redirect{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+}
+.rh{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+}
+
+.rtext{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.subr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    margin: auto 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.north{
+    object-fit: fill;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./pexels-rahul-sapra-11521892.jpg);
+    background-color: grey;
+    background-blend-mode: multiply;
+    transition: 0.3s;
+}
+.west{
+    object-fit: fill;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./pexels-ankush-rathi-925069.jpg);
+    background-color: grey;
+    background-blend-mode: multiply;
+    transition: 0.3s;
+}
+
+.south{
+    object-fit: fill;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./travel-Jatayu.jpg);
+    background-color: grey;
+    background-blend-mode: multiply;
+    transition: 0.3s;
+}
+
+.east{
+    object-fit: fill;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./rhino-east.jpg);
+    background-color: grey;
+    background-blend-mode: multiply;
+    transition: 0.3s;
+}
+
+.north:hover{
+    padding: 20px;
+    transition: 0.3s;
+}
+.north:hover .nt{
+    font-size: 6vh;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+    color: rgba(0, 0, 0, 0);
+    transition: 0.3s;
+}
+.west:hover{
+    padding: 20px;
+    transition: 0.3s;
+}
+.west:hover .wt{
+    font-size: 6vh;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+    color: rgba(0, 0, 0, 0);
+    transition: 0.3s;
+}
+
+.south:hover{
+    padding: 20px;
+    transition: 0.3s;
+}
+.south:hover .st{
+    font-size: 6vh;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+    color: rgba(0, 0, 0, 0);
+    transition: 0.3s;
+}
+
+.east:hover{
+    padding: 20px;
+    transition: 0.3s;
+}
+.east:hover .et{
+    font-size: 6vh;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+    color: rgba(0, 0, 0, 0);
+    transition: 0.3s;
+}
+
+
+
+/*poi end*/
 
 @keyframes slide {
     0%{
@@ -569,6 +716,15 @@ ul, li{
     .M-container{
         flex-direction: column;
         height: 80vh;
+        padding-right: 25px;
+    }
+    .redirect{
+        display: flex;
+        flex-direction: column;
+    }
+    .subr{
+        height: 10vh;
+        padding: 1vh;
     }
 }
 
