@@ -741,9 +741,8 @@ ul, li{
         top: 0;
     }
     #background-video{
-        object-fit: contain;
         height: fit-content;
-        padding-top: 10vh;
+        margin-top: 10vh;
     }
 }
 
