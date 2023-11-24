@@ -743,7 +743,7 @@ ul, li{
     #background-video{
         object-fit: contain;
         height: fit-content;
-        padding-top: 100px;
+        padding-top: 10vh;
     }
 }
 
