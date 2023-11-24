@@ -34,7 +34,6 @@ ul, li{
     height: 10%;
     z-index: 100;
     width: 100%;
-    padding: 0px 15px 25px 15px;
 }
 
 /* .head-mid{
@@ -740,6 +739,11 @@ ul, li{
     .header{
         position: absolute;
         top: 0;
+    }
+    #background-video{
+        object-fit: contain;
+        height: fit-content;
+        padding-top: 100px;
     }
 }
 
