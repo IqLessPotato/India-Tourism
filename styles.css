@@ -374,6 +374,20 @@ background: linear-gradient(90deg, rgba(240,113,5,1) 0%, rgba(255,255,255,1) 50%
     letter-spacing: 2px;
 }
 
+.redirect a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.redirect a:hover{
+    margin: 20px;
+}
+
+
 .subr{
     display: flex;
     justify-content: center;
@@ -816,8 +830,6 @@ background: linear-gradient(90deg, rgba(240,113,5,1) 0%, rgba(255,255,255,1) 50%
     white-space: nowrap;
 }
 /*footer-end*/
-
-
 
 @media only screen and (max-width: 768px) {
     .M-container{
