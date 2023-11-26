@@ -28,7 +28,7 @@ ul, li{
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     height: 10%;
@@ -49,8 +49,8 @@ ul, li{
 
 .logo{
     background: url(/logo-removebg-preview.png);
-    width: 200px;
-    height: 100px;
+    width: 170px;
+    height: 80px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -373,20 +373,6 @@ background: linear-gradient(90deg, rgba(240,113,5,1) 0%, rgba(255,255,255,1) 50%
     font-weight: bold;
     letter-spacing: 2px;
 }
-
-.redirect a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
-}
-
-.redirect a:hover{
-    margin: 20px;
-}
-
 
 .subr{
     display: flex;
