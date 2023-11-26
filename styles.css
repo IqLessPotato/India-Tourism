@@ -824,6 +824,7 @@ background: linear-gradient(90deg, rgba(240,113,5,1) 0%, rgba(255,255,255,1) 50%
         flex-direction: column;
         height: 80vh;
         padding-right: 25px;
+        overflow-y:scroll;
     }
     .M-container::-webkit-scrollbar{
         display: none;
