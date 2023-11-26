@@ -236,17 +236,35 @@ ul, li{
 .M-container{
     display: flex;
     flex-direction: row;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
     padding-left: 25px;
     background-color: #1d212b;
     padding-top: 10px;
     padding-bottom: 20px;
     border-top: 1px solid white;
    }
-
+/* 
 .M-container::-webkit-scrollbar{
     display: none;
-  } 
+  }  */
+
+  .M-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.M-container::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
+.M-container::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: rgb(240,113,5);
+background: linear-gradient(90deg, rgba(240,113,5,1) 0%, rgba(255,255,255,1) 50%, rgba(0,207,22,1) 86%);
+}
 
 .mvd p{
     padding: 15px;
