@@ -902,6 +902,10 @@ background: linear-gradient(90deg, rgba(240,113,5,1) 0%, rgba(255,255,255,1) 50%
 /*footer-end*/
 
 @media only screen and (max-width: 768px) {
+    .logo{
+        width: 80px;
+        height: 40px;
+    }
     .M-container{
         flex-direction: column;
         height: 80vh;
@@ -921,13 +925,13 @@ background: linear-gradient(90deg, rgba(240,113,5,1) 0%, rgba(255,255,255,1) 50%
         width: 90%;
     }
     .head-left{
-        width: 40%;
+        width: 10%;
     }
     .head-right{
-        width: 60%;
+        width: 90%;
     }
     .head-right li{
-        font-size: smaller;
+        font-size: 8px;
     }
     .header{
         position: absolute;
